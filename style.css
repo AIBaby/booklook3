@@ -1,0 +1,37 @@
+.title, .author, .description, .image, .pages, .minutes {
+  display: none;
+}
+
+.book {
+  margin-top: 60px;
+
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.book p {
+  font-size: 18px;
+}
+
+hr {
+  margin-bottom: 70px;
+  margin-top: 40px;
+  border: .5px solid rgba(168, 168, 168, 0.705);
+}
+
+#isbn1,
+#bookNameSearch {
+  width:80%;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* BUTTONS */
+#myBtnIsbn,
+#myBtnName {
+  float:right;
+  width: 15%;
+  margin-top: 10px;
+}
